@@ -14,6 +14,7 @@ WHITE   = '\033[37m'
 RESET   = '\033[39m'
 
 os.system("title [user:%USERNAME%] [totals users :16] [admin :2] [attacks:51]")
+os.system(clear)
 os.system("mode con lines=40 cols=55")
 print(f'''\033[33m
 
